@@ -8,6 +8,10 @@ document.getElementById('symptomForm').addEventListener('submit', function(e) {
     if (symptoms.includes('fever')) {
         result += 'For fever, take acetaminophen or ibuprofen, and stay hydrated. See a doctor if it persists.<br>';
     }
+    if(symptoms.includes('food poisoning')){
+        result += 'For food poisoning, you can take loperamide and Imodium A-D .See a doctor if it persists.<br>'
+    if(symptoms.includes('vomiting')){
+        result += 'For vomiting, you can take Metoclopramide or Ondansetron.<br>';
     if (symptoms.includes('cough')) {
         result += 'For cough, try a cough suppressant or expectorant. Honey and warm fluids can help soothe the throat.<br>';
     }
